@@ -1,0 +1,105 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: #2E2E2E;
+}
+
+.nav-items
+{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    align-content: center;
+}
+
+ul li a
+{
+    padding: 7px 14px;
+}
+
+.header-container
+{
+    font-family: "Sen", sans-serif;
+}
+
+/*navigation bar*/
+
+.nav-container
+{
+    background-color: transparent;
+}
+
+.wrapper
+{
+    max-width: 1300px;
+    margin-top: 0;
+    margin-left: 0px;
+    max-height: 62px;
+}
+
+nav
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+nav ul
+{
+    display: flex;
+    height: 62px;
+}
+
+nav .logo
+{
+    font-family: "Sen", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 4px;
+    margin-left: 14px;
+    text-decoration-line: underline;
+}
+
+.nav-items li
+{
+    display: show;
+    list-style: none;
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .nav-items li {display: none;}
+}
+
+.nav-items li a, a:focus 
+{
+    text-decoration: none;
+    color: inherit;
+    transition: 300ms;
+}
+
+.nav-container
+{
+    color: white;
+}
+
+.nav-items li a:hover
+{
+    background-color: black;
+    color: white;
+    transition: ease-in-out;
+    border-radius: 30px;
+}
+/*body*/
+
+img
+{
+    margin-top: 127px;
+    max-width: 1440px;
+    height: auto;
+}
