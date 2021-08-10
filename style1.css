@@ -100,6 +100,7 @@ nav .logo
 img
 {
     margin-top: 127px;
-    max-width: 1440px;
+    max-width: 1366px;
     height: auto;
+    overview: hidden;
 }
